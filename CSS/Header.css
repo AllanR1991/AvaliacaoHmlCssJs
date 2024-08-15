@@ -1,0 +1,27 @@
+header {
+    background-image: linear-gradient(to right, #1E52B4, #002777
+    );
+}
+
+.headerSuperiror {
+    display: flex;
+    justify-content: space-between;
+    padding: 29px 72px 0 72px;
+}
+
+.headerSuperiror>img {
+    height: 26px;
+}
+
+.menuNav{
+
+}
+
+.listaMenu{
+    display: flex;
+}
+
+.itemLista{
+    color: #FFF;
+    gap: 30;
+}
