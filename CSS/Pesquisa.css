@@ -1,0 +1,62 @@
+.container__busca {
+    display: flex;
+    background-color: #FFF;
+    border-radius: 8px;
+    box-shadow: 4px 4px 10px 5px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+    padding: 13px 31px;
+}
+.container__pesquisa{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    border-right: 1px dashed #4E4B59;
+    padding-right: 46px;
+    padding-left: 20px;
+    width: 190px;
+    justify-content: center;
+}
+
+.container__pesquisa:last-child{
+    border:  none;
+    padding-right: 0;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 16
+}
+
+
+
+.container__pesquisa--icon{
+    font-size: 16px;
+    color: #4E4B59;
+}
+
+.container__pesquisa--texto{
+    font-size: 16px;
+    color: #5F5C6B;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+
+.botao__hotel{
+    background-color: #009C3B;
+    border: 2px #fafafa solid;
+    border-radius: 8px;
+    padding: 14px 37px;
+}
+
+.botao__hotel--texto{
+    color: #FFF;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}

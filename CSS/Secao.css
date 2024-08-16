@@ -1,0 +1,45 @@
+.secao__viagens{
+
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 260px;
+}
+
+.cards--img{
+    width: 260px;
+    height: 173px;
+    border-radius: 8px;
+}
+
+.cards__titulo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards__titulo--principal{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #2E2636;
+
+}
+
+.cards__titulo--estado{
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #FFDF00;
+}
+
+.cards--descricao{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: #33303E;
+}

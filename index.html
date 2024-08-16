@@ -5,37 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hospedagem.com</title>
     <link rel="stylesheet" href="./CSS/Reset.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+        </style>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./CSS/Base.css">
     <link rel="stylesheet" href="./CSS/Header.css">
+    <link rel="stylesheet" href="./CSS/Pesquisa.css ">
+    <link rel="stylesheet" href="./CSS/Secao.css">
+        
 </head>
 <body>
-    <header>
-        <div class="headerSuperiror">
-            <img src="./assets/logo-branca.png" alt="Logo Marda da empresa escrita Hospedagem.com na cor branca."/>
-            <nav class="menuNav">
-                <ul class="listaMenu">
-                    <li class="itemLista"><p>Hotéis</p></li>
-                    <li class="itemLista"><p>Contato</p></li>
-                    <li class="itemLista"><p>Entrar</p></li>
-                    <li class="itemLista"><p>Cadastra-se</p></li>
+    <header class="container__header container__margin">
+        <div class="header__superiror">
+            <img src="./assets/logo-branca.png" alt="Logo Marda da empresa escrita Hospedagem.com na cor branca." class="header__superiror--logo"/>
+            <nav class="header__superiror-nav">
+                <ul class="menu">
+                    <li class="menu__item">Hotéis</li>
+                    <li class="menu__item">Contato</li>
+                    <li class="menu__item">Entrar</li>
+                    <li class="menu__item">Cadastra-se</li>
                 </ul>
             </nav>
         </div>
         
-        <div class="headerInferior">
-            <div class="containerInformativo">
-                <h1 class="containerInformativo-titulo">
-                    As melhores hospedagens do Brasil.
+        <div class="header__inferior">
+            <div class="container__informativo">
+                <h1 class="container__informativo--titulo">
+                    As melhores hospedagens do Brasil
                   </h1>
-                  <p class="containerInformativo-descricao">mais de 500 mil reservas esperando por você! Basta procurar pelo local ideal, e reazlizar a viagem dos seus sonhos.</p>
+                  <p class="container__informativo--descricao">mais de 500 mil reservas esperando por você! Basta procurar pelo local ideal, e reazlizar a viagem dos seus sonhos.</p>
             </div>
 
-            <img src="./assets/mapa-brasil.png" alt="Imagem de mapa do Brasil separado por regiões na cor branca.">
+            <img src="./assets/mapa-brasil.png" alt="Imagem de mapa do Brasil separado por regiões na cor branca." class="header__inferior--image">
         </div>
-        
+       
 
-        
 
+        <div class="container__busca">
+            <div class="container__pesquisa">
+                <span class="material-symbols-outlined">
+                    location_on
+                    </span>
+                <p class="container__pesquisa--texto">Qual o local desejado?</p>
+            </div>
+            <div class="container__pesquisa">
+                <span class="material-symbols-outlined">
+                    today
+                    </span>
+                <p class="container__pesquisa--texto">Data check in</p>
+            </div>
+            <div class="container__pesquisa">
+                <span class="material-symbols-outlined">
+                    event
+                    </span>
+                <p class="container__pesquisa--texto">Data check out</p>
+            </div>
+            <div class="container__pesquisa">
+                <div class="botao__hotel">
+                    <p class="botao__hotel--texto">Procurar hotel</p>
+                </div>
+            </div>
+        </div>
     </header>
+    <section class="secao__viagens">
+        <div class="cards">
+            <img src="https://images.unsplash.com/photo-1693501919895-c2001f1463f6?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="cards--img">
+            <div class="cards__titulo">
+                <h2 class="cards__titulo--principal">Andra dos Reis</h2>
+                <p class="cards__titulo--estado">RJ</p>
+            </div>
+            <p class="cards--descricao">Desfrute de um paraiso tropical em nossa pousada! Relaxe em nossas piscinas com vista para o mar.</p>
+        </div>
+    </section>
+    
     <footer></footer>
 </body>
 </html>
